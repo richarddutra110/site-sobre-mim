@@ -1,0 +1,131 @@
+footer li{
+    color: #000000;
+    line-height: 30px;
+  }
+  
+  .top-footer {
+    background-color:#910000;
+    padding: 40px 0 10px;
+  }
+  
+  .top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .top-footer p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+  }
+  
+  
+  .top-footer li a {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: color .3s;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+  }
+  
+  .top-footer li a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    background-color:#a8005a   ;
+    padding: 30px ;
+  }
+  
+  .footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+  }
+  
+  .footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  
+  
+  .page-404 {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page-404 h1 {
+    font-size: 200px;
+  }
+
+  body{
+    background: wheat;
+}
+
+#conteudo{
+    width: 600px;
+    background: whitesmoke;
+    padding: 25px;
+    padding-top: 25;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #000;
+    margin: 0 auto;
+    max-height: 250px;
+    overflow: hidden;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#conteudo.open{
+    max-height: 1000px;
+
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#mostre_mais{
+    background: rgb(245, 15, 54);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    width: 120px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+
+
+
+
